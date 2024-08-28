@@ -14,6 +14,11 @@
         .manrope-font {
   font-family: "Manrope", sans-serif;
 }
+
+.paper{
+    background-image: url(assets/bg.jpg);
+}
+
     </style>
 </head>
 <body class=" w-screen bg-gradient-to-b from-gray-50 to-gray-100">
@@ -100,8 +105,8 @@
 
         <!-- Card Section -->
 
-        <section class="w-3/4 mx-auto border-solid border-2 border-red-500">
-            <div class="w-full h-[1440px] lg:h-[500px] ml-11 lg:ml-0 ">
+        <section class="w-3/4 mx-auto">
+            <div class="w-full h-[1440px] lg:h-[500px] lg:ml-0 ">
                 <div class="lg:w-6/12 text-center mx-auto ">
                     <button class="text-black mt-4 font-semibold bg-white py-1 pr-4 pt-2 rounded-3xl lg:ml-0 ">
                         <i class="lg:ml-1 lg:p-2 fa-solid fa-arrow-right"></i>How we works</button>
@@ -132,9 +137,45 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="paper h-[836px] w-full">
+                <div class="w-[327px] lg:w-full h-[180px] items-center text-center pt-[100px] ml-7">
+                    <button class="text-black mt-4 font-semibold bg-green-300 pl-4 py-3 pr-4 pt-2 rounded-3xl lg:ml-0 items-center">
+                        <i class="lg:ml-1 lg:p-2 fa-solid fa-arrow-right"></i>Let's Connect</button>
+                    <h1 class="text-5xl font-extrabold text-black pt-4">Let’s Discuss Next Project</h1>
+                    <p class="text-gray-600 pt-4">If you want to make a design with us, or you have any bussiness deals, just fill the form bellow and submit. <br> We'll contact with you as soon as possible.</p>
+                </div>
+                <div class="h-48 mt-56 lg:mt-36 w-96 lg:w-[1000px] mx-auto">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <input placeholder="First Name*" type="text" class="h-16 w-[327px] lg:w-[473px] bg-white p-4 rounded-3xl">
+                        <input placeholder="Last Name*" type="text" class="h-16 w-[327px] lg:w-[473px] bg-white p-4 rounded-3xl">
+                        <input placeholder="Phone Number*" type="number" class="h-16 w-[327px] lg:w-[473px] bg-white p-4 rounded-3xl">
+                        <input placeholder="E-Mail Address" type="email" class="h-16 w-[327px] lg:w-[473px] bg-white p-4 rounded-3xl" >
+                    </div>
+                    <div>
+                        <input placeholder="Write your message here" type="email" class="h-60 w-[327px] lg:w-[1000px] mt-16 bg-white pl-4 pb-44 rounded-3xl" >
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        
+    <footer class="w-full h-[500px] bg-black">
+        <div class="text-center pt-28">
+            <h3 class="flex justify-center text-3xl text-white font-bold"> <span class="bg-green-400 text-black mt-1 mr-1 p-1 rounded-3xl -rotate-45"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg></span>Rinterio</h3>
+            <p class="text-gray-400 pt-4">Rinterio is a private house designing company. The company has designed over 300+ houses and every house <br> design are a masterpiece. Its not our claim ! Its our happy customer's claim.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-5 lg:w-3/6 pt-12 mx-auto">
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Portfolio</a>
+            <a href="">Blogs</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div>
+            
+        </div>
     </footer>
 </body>
 </html>
